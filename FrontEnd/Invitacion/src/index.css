@@ -1,0 +1,96 @@
+.carta {
+  background-image: url('../public/marco.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f06292;
+  margin: 50px;
+  border: 10px solid transparent;
+  aspect-ratio: 804/1056;
+  width: 50%;
+  height: 50%;
+  justify-self: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 768px) {
+  .carta {
+    width: 95%;
+    height: 90%;
+  }
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .contenido {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: 'Great Vibes', cursive;
+  margin-bottom: 0px;
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(to right, #ecc440, #fffa8a, #ddac17, #ffff95, #ecc440);
+  background-clip: text;
+  background-size: 200%;
+  animation: gradientAnimation 5s linear infinite;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+  }
+}
+
+p {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #333;
+  font-family: 'Dancing Script', cursive;
+}
+@media (max-width: 768px) {
+  p {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
+}
+
+button {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5px;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  background-color: #e91e63;
+  border: solid 5px #f48fb1;
+  border-radius: 12px;
+}
+@media (max-width: 768px) {
+  button {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    border: solid 5px #f48fb1;
+  }
+}
