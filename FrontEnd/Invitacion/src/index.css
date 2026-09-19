@@ -18,6 +18,11 @@
     height: 90%;
   }
 }
+@media (max-width: 480px) {
+  .carta {
+    margin: 10px;
+  }
+}
 
 .contenido {
   display: flex;
@@ -33,6 +38,14 @@
   .contenido {
     margin-left: 25px;
     margin-right: 25px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 480px) {
+  .contenido {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 0px;
   }
 }
 
@@ -62,6 +75,12 @@ h1 {
     margin-bottom: 10px;
   }
 }
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1px;
+  }
+}
 
 p {
   font-size: 3rem;
@@ -74,6 +93,12 @@ p {
   p {
     font-size: 2.5rem;
     margin-bottom: 5px;
+  }
+}
+@media (max-width: 480px) {
+  p {
+    font-size: 2rem;
+    margin-bottom: 1px;
   }
 }
 
@@ -91,6 +116,13 @@ button {
   button {
     font-size: 2.5rem;
     margin-bottom: 5px;
+    border: solid 5px #f48fb1;
+  }
+}
+@media (max-width: 480px) {
+  button {
+    font-size: 2rem;
+    margin-bottom: 1px;
     border: solid 5px #f48fb1;
   }
 }
